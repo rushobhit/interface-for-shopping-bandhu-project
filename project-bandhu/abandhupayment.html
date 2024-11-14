@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Bandhu - Payment</title>
+  <link rel="stylesheet" href="abandhupayment.css">
+</head>
+<body>
+  <header>
+    <h1>Shopping Bandhu - Billing</h1>
+  </header>
+
+  <main class="container">
+    <section id="billing-details" class="card">
+      <h2>Billing Summary</h2>
+      <ul id="billing-items"></ul>
+      <p>Total: $<span id="billing-total-price">0.00</span></p>
+    </section>
+
+    <section id="payment-methods" class="card">
+      <h2>Choose Payment Method</h2>
+     <button onclick="processPayment('NFC')" class="btn-primary">Pay with NFC</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by Shopping Bandhu</p>
+  </footer>
+
+  <script src="abandhupayment.js"></script>
+</body>
+</html>

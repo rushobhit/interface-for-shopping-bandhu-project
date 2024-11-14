@@ -1,0 +1,114 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body and Background */
+  body {
+    background-color: #333; /* Light black background */
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #222; /* Darker black for the header */
+    color: #87ceeb; /* Sky blue text */
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #f5d300; /* Yellow color for branding */
+  }
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    color: #f1f1f1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Titles */
+  h2 {
+    font-size: 1.5rem;
+    color: #87ceeb; /* Sky blue color */
+  }
+  
+  /* Text Paragraph */
+  p {
+    font-size: 1rem;
+    color: #f1f1f1;
+    margin-bottom: 15px;
+  }
+  
+  /* Cart Items List */
+  #cart-items {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  #cart-items li {
+    padding: 8px;
+    border-bottom: 1px solid #555;
+    color: #f5d300; /* Yellow for item names */
+  }
+  
+  /* Total Price */
+  #total-price {
+    font-weight: bold;
+    color: #f5d300; /* Yellow for the total price */
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #87ceeb; /* Sky blue */
+    color: #222;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6bb5d6; /* Slightly darker sky blue on hover */
+  }
+  
+  /* Footer */
+  footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #87ceeb; /* Sky blue text */
+    position: fixed;
+    bottom: 0;
+  }
+  
